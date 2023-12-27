@@ -5,11 +5,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-@media (max-height: 500px) {
+/* @media (max-width: 600px) {
   body {
-    min-height: 800px;
+    min-width: 800px;
   }
-}
+} */
 
 .container {
   background: #ecf4ff;
