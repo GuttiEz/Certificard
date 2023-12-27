@@ -5,12 +5,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* @media (max-width: 600px) {
-  body {
-    min-width: 800px;
-  }
-} */
-
 .container {
   background: #ecf4ff;
   color: #1c1c1c;
