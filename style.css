@@ -5,6 +5,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
 .container {
   background: #ecf4ff;
   color: #1c1c1c;
