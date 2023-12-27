@@ -27,7 +27,7 @@ body {
 
 .perfil {
   display: flex;
-  /*   align-items: center; */
+  align-items: start;
 }
 
 #perfil-foto {
@@ -36,20 +36,29 @@ body {
   max-height: 160px;
 }
 
-.title {
-  margin-left: 16px;
-}
-
 .title h1 {
   font-weight: 700;
   font-size: 36px;
-  float: inline-start;
+}
+
+#name{
+  display: flex;
+  align-items: center;
+}
+
+.redes {
+  margin-left: 1rem;
+}
+
+.icon {
+  max-height: 40px;
+  margin-left: 5px;
 }
 
 .title h3 {
+  margin-top: 2px;
   font-weight: 400;
   font-size: 24px;
-  float: inline-end;
 }
 
 .tema button {
@@ -64,8 +73,6 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  /*   align-items: center; */
-  /*   margin-left: 140px; */
   margin-top: 32px;
   padding: 32px;
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
@@ -109,15 +116,4 @@ body {
   background: #1c1c1c;
   color: white;
   border: 2px solid #f7f7f7;
-}
-
-.redes {
-  display: absolute;
-  margin-right: 95px;
-  float: right;
-}
-
-.icon {
-  max-height: 40px;
-  margin-left: 5px;
 }
