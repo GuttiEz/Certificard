@@ -1,0 +1,37 @@
+@media screen and (max-width: 790px) {
+
+  .title h1 {
+    margin-left: 1rem;
+  }
+  .tema button {
+    display: none;
+  }
+  .title h3 {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #969696;
+  }
+
+  .container {
+    margin: 1rem;
+  }
+
+  .projetos {
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+
+  .projetos-titulo {
+    line-height: 0;
+    padding: 1rem 0;
+  }
+  .projetos-titulo ul {
+    padding: 1rem 0;
+  }
+
+  .projetos-item {
+    padding: 0;
+  }
+
+}
