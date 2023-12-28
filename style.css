@@ -59,9 +59,10 @@ body {
   align-self: flex-end;
   font-size: 24px;
   font-weight: 400;
-  padding: 8px 16px; /*O primeiro é distância entre em cima e embaixo. Já o segundo é dos lados */
+  padding: 8px 16px;
   background: #ecf4ff;
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .projetos {
